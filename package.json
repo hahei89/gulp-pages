@@ -1,0 +1,42 @@
+{
+  "name": "gulp-pages",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "gulp-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/litianhua/gulp-pages#readme",
+  "bugs": {
+    "url": "https://github.com/litianhua/gulp-pages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litianhua/gulp-pages.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "litianhua",
+    "email": "18702971504@163.com",
+    "url": "https://github.com/hahei89/gulp-pages.git"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "standard --fix"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.1"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
